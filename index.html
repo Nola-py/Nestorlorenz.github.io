@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Unidad de pediatría del hospital nacional de Santani</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body >
+<div id="contenedor" >
+    <h1>Caluladora de hidratación Basal </h1>
+    <div>
+    <div style = "background-color: #ffffff;">
+    <div id="calculadora">
+    <div class="contenido">
+    <label for="numero">Peso:</label>
+    <input type="number" id="peso">
+    <button id = calcular >Calcular</button>
+    <p id = "error">Debe ingresar al menos un valor</p>
+    <div style = "text-align: left;border: 1px solid #FF416C;">
+    <p><strong>CC: </strong><span id="resultado1"></span></p>
+    <p><strong>m+m /2: </strong><span id="resultado"></span></p>
+    <p><strong>SC 1500: </strong><span id="resultado2"></span></p>
+    <p><strong>SC 2000: </strong><span id="resultado3"></span></p>
+    </div>
+    </div>
+    </div>
+    <div id="detalle">
+        <div class="contenido">
+        <div>
+            <h1>¿Como se calcula?</h1>
+            <ul>
+                <li>De 0kg a 10kg, se calcula 100cc por cada kilo.</li>
+                <li>Se suman 50cc por cada kilo de peso por arriba de 10kg, hasta 20kg</li>
+                <li>De 20kg para arriba, se suman 20cc por cada kilo adicional</li>
+            </ul>
+        </div>
+    </div>  
+</div>
+    </div>
+    </div>
+</div>
+    
+
+</body>
+</html> 
